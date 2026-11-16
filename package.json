@@ -1,0 +1,10 @@
+{
+  "name": "u613-face",
+  "version": "0.1.7",
+  "private": true,
+  "description": "Циферблат U613 для Amazfit (Zepp OS): полоски статистики и кнопки 📊 🧩 🍀 🥗",
+  "scripts": {
+    "build": "zeus build",
+    "test": "node tests/colors.test.mjs && node tests/layout.test.mjs && node tests/face.test.mjs"
+  }
+}

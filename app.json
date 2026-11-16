@@ -1,0 +1,50 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1072511,
+    "appName": "Luv Face",
+    "appType": "watchface",
+    "version": {
+      "code": 8,
+      "name": "0.1.7"
+    },
+    "icon": "icon.png",
+    "vender": "luvface",
+    "description": "Циферблат с полосками статистики и кнопками"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "3.6",
+      "target": "3.6",
+      "minVersion": "3.6"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0
+        }
+      },
+      "platforms": [
+        {
+          "st": "s",
+          "sr": "w432"
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Luv Face"
+    },
+    "ru-RU": {
+      "appName": "Luv Face"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
